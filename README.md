@@ -13,17 +13,61 @@ Windows 11 / Microsoft IME 向けのエンジニア用ユーザー辞書です�
 
 ## 使い方（Windows 11 / Microsoft IME）
 
-1. リポジトリを取得する（Git clone または GitHub の **Code → Download ZIP**）。
-2. Python 3.10 以降を使用して、リポジトリのルートで以下を実行する。
+### 1. ZIPを展開する
 
-   ```powershell
-   python scripts/build_dictionary.py
-   ```
+GitHub の **Code → Download ZIP** からZIPをダウンロードし、エクスプローラーで右クリックして **すべて展開** を選択します。
 
-3. `dist/engineer_dictionary.txt` が生成されたことを確認する。
-4. タスクバーの「あ」または「A」を右クリックし、**ユーザー辞書ツール** を開く。
-5. **ツール → テキストファイルからの登録** で `dist/engineer_dictionary.txt` を選択する。
-6. `ふぁすと` などを入力して変換候補を確認する。
+展開したフォルダの中から、`README.md`・`dictionary`・`scripts` が並んでいるフォルダを開きます。このフォルダが **リポジトリのルートディレクトリ（実行ディレクトリ）** です。
+
+例えばダウンロードフォルダに展開した場合、実際の場所は次のようになります（フォルダ名はダウンロードしたブランチにより異なります）。
+
+```text
+C:\Users\<ユーザー名>\Downloads\engineer-ime-dictionary-develop-basic-enginner-dectionary\
+├── README.md
+├── dictionary\
+└── scripts\
+    └── build_dictionary.py
+```
+
+### 2. PowerShellを開く
+
+**Windows PowerShell または PowerShell** で実行できます。エクスプローラーで上記のルートディレクトリを開き、**アドレスバーに `powershell` と入力してEnter** を押してください。そのフォルダをカレントディレクトリとしてPowerShellが起動します。
+
+PowerShellで以下を実行し、`README.md` と `scripts` が表示されることを確認します。
+
+```powershell
+Get-Location
+Get-ChildItem
+```
+
+別の場所でPowerShellを開いた場合は、`cd "C:\Users\<ユーザー名>\Downloads\<展開したフォルダ名>"` でルートディレクトリに移動してください。パスは自分のPCに合わせて置き換えます。
+
+### 3. Pythonで辞書を生成する
+
+Python 3.10以降が必要です。まずインストール済みか確認します。
+
+```powershell
+python --version
+```
+
+`python` が認識されない場合、WindowsのPython Launcherが使える環境では `py --version` を試してください。両方使えない場合はPythonをインストールする必要があります。
+
+**実行ディレクトリは `README.md` があるルートディレクトリです。** `scripts` ディレクトリに移動する必要はありません。
+
+```powershell
+python scripts/build_dictionary.py
+```
+
+`python` が使えず `py` が使える場合は、`py scripts/build_dictionary.py` を実行します。
+
+成功すると `Generated dist/engineer_dictionary.txt (150 entries)` と表示され、ルートディレクトリ配下に `dist\engineer_dictionary.txt` が生成されます。
+
+### 4. Microsoft IMEへ登録する
+
+1. タスクバーの「あ」または「A」を右クリックし、**ユーザー辞書ツール** を開く。
+2. **ツール → テキストファイルからの登録** を選択する。
+3. 生成された `dist\engineer_dictionary.txt` を指定する。
+4. `ふぁすと` などを入力し、変換候補に `FastAPI` が表示されるか確認する。
 
 Microsoft IME の表示やメニュー名は環境・バージョンによって異なる場合があります。必要に応じて Windows の IME 設定からユーザー辞書ツールを開いてください。
 
