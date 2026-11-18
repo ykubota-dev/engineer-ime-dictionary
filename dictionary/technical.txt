@@ -1,0 +1,70 @@
+ぱいそん	Python	名詞
+ふぁすと	FastAPI	名詞
+ぱいだん	Pydantic	名詞
+りあくと	React	名詞
+たいぷすくりぷと	TypeScript	名詞
+じゃばすくりぷと	JavaScript	名詞
+じゃば	Java	名詞
+すぷりんぐ	Spring Boot	名詞
+えーだぶりゅーえす	AWS	名詞
+どっかー	Docker	名詞
+くばねてす	Kubernetes	名詞
+ぎっと	Git	名詞
+ぎっとはぶ	GitHub	名詞
+ぎっとあくしょん	GitHub Actions	名詞
+ぶいえすこーど	VS Code	名詞
+のーど	Node.js	名詞
+ばいと	Vite	名詞
+ふぁすてぃふぁい	Fastify	名詞
+えーえすぴー	ASP.NET Core	名詞
+しーしゃーぷ	C#	名詞
+えすきゅーえる	SQL	名詞
+ぽすぐれ	PostgreSQL	名詞
+えすきゅーらいと	SQLite	名詞
+おらくる	Oracle	名詞
+れでぃす	Redis	名詞
+せれりー	Celery	名詞
+えーぴーあい	API	名詞
+れすと	REST API	名詞
+えいちてぃーてぃーぴー	HTTP	名詞
+えいちてぃーてぃーぴーえす	HTTPS	名詞
+じぇいそん	JSON	名詞
+じぇいだぶりゅーてぃー	JWT	名詞
+おーあうす	OAuth	名詞
+こーす	CORS	名詞
+しーあい	CI/CD	名詞
+ぷるりく	Pull Request	名詞
+ぷるりくえすと	Pull Request	名詞
+まーじ	merge	名詞
+こみっと	commit	名詞
+ぶらんち	branch	名詞
+りぽじとり	repository	名詞
+でぷろい	deploy	名詞
+りふぁくたりんぐ	refactoring	名詞
+ろぐ	ログ	名詞
+でばっぐ	デバッグ	名詞
+えーあいえーじぇんと	AIエージェント	名詞
+えるえるえむ	LLM	名詞
+らんぐぐらふ	LangGraph	名詞
+らんぐちぇーん	LangChain	名詞
+えむしーぴー	MCP	名詞
+あーるえーじー	RAG	名詞
+つーるこーりんぐ	Tool Calling	名詞
+おーけすとれーたー	Orchestrator	名詞
+ぷろんぷと	プロンプト	名詞
+えんべでぃんぐ	Embedding	名詞
+べくたーでーびー	ベクトルDB	名詞
+えすさん	S3	名詞
+いーしーつー	EC2	名詞
+らむだ	Lambda	名詞
+ぶいぴーしー	VPC	名詞
+えーえるびー	ALB	名詞
+あいあむ	IAM	名詞
+くらうどうぉっち	CloudWatch	名詞
+てらふぉーむ	Terraform	名詞
+えすでぃーけー	SDK	名詞
+うぇぶふっく	Webhook	名詞
+えんどぽいんと	エンドポイント	名詞
+えーあい	AI	名詞
+えーぴーあいきー	APIキー	名詞
+ふろんとえんど	フロントエンド	名詞
